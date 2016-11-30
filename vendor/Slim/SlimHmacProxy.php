@@ -44,10 +44,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkInsertLanguageTemplate' => 'restApiDefaultCall',
                                     'pkFillTextLanguageTemplate' => 'restApiDefaultCall',
                                     'pkGetSectors_syssectors' => 'restApiDefaultCall',
-        
-           
-         //**---- syssectors -------------------
-        
+         //**---- syssectors -------------------        
          //** infoUsers ----------------------
                                     'pkDelete_infoUsers' => 'restApiDefaultCall',
                                     'pkGetAll_infoUsers' => 'restApiDefaultCall',
@@ -62,12 +59,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkInsertConsultant_infoUsers' => 'restApiDefaultCall',
                                     'pkInsertUrgePerson_infoUsers' => 'restApiDefaultCall',
                                     'setPersonPassword_infoUsers' => 'restApiDefaultCall',
-        
-        
-        
-                                    
-         //**---- infoUsers -------------------
-                                        
+         //**---- infoUsers -------------------                                        
          //** syscountrys ----------------------
                                     'pkDelete_syscountrys' => 'restApiDefaultCall',
                                     'pkGetAll_syscountrys' => 'restApiDefaultCall',
@@ -76,11 +68,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillGrid_syscountrys' => 'restApiDefaultCall',                                    
                                     'fillComboBox_syscountrys' => 'restApiDefaultCall',
                                     'pkInsertLanguageTemplate_syscountrys' => 'restApiDefaultCall',
-        
-     
-                                    
-         //**---- syscountrys -------------------
-        
+         //**---- syscountrys -------------------        
         //** syscity ----------------------
                                     'pkDelete_syscity' => 'restApiDefaultCall',
                                     'pkGetAll_syscity' => 'restApiDefaultCall',
@@ -89,9 +77,6 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillGrid_syscity' => 'restApiDefaultCall',                                    
                                     'fillComboBox_syscity' => 'restApiDefaultCall',   
                                     'pkInsertLanguageTemplate_syscity' => 'restApiDefaultCall',  
-        
-        
-                                    
          //**---- syscity -------------------
          //** syslanguage ----------------------
                                     'pkDelete_syslanguage' => 'restApiDefaultCall',
@@ -111,8 +96,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillGrid_sysborough' => 'restApiDefaultCall',                                    
                                     'fillComboBox_sysborough' => 'restApiDefaultCall',  
                                     'pkInsertLanguageTemplate_sysborough' => 'restApiDefaultCall',  
-         //**---- sysborough -------------------       
-        
+         //**---- sysborough -------------------   
            //** sysvillage ----------------------
                                     'pkDelete_sysvillage' => 'restApiDefaultCall',
                                     'pkGetAll_sysvillage' => 'restApiDefaultCall',
@@ -122,8 +106,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'fillComboBox_sysvillage' => 'restApiDefaultCall',  
                                     'pkInsertLanguageTemplate_sysvillage' => 'restApiDefaultCall',   
                         
-         //**---- sysvillage -------------------   
-        
+         //**---- sysvillage -------------------  
          //** blLoginLogout ----------------------
                                     'pkDelete_blLoginLogout' => 'restApiDefaultCall',
                                     'pkGetAll_blLoginLogout' => 'restApiDefaultCall',
@@ -138,51 +121,6 @@ class SlimHmacProxy extends \Proxy\Proxy {
                         
         
          //**---- blLoginLogout -------------------   
-         //** infoFirmProfile ----------------------
-                                    'pkDelete_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkInsert_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkUpdate_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkDeletedAct_infoFirmProfile' => 'restApiDefaultCall',
-                                    'fillComboBox_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkInsertLanguageTemplate_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkFillTextLanguageTemplate_infoFirmProfile' => 'restApiDefaultCall',
-                            
-                                    'pktempInsert_infoFirmProfile' => 'restApiDefaultCall',
-        
-                                    'pkFillCompanyLists_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkFillCompanyInfoEmployees_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkFillCompanyInfoReferences_infoFirmProfile' => 'restApiDefaultCall',        
-                                    'pkFillCompanyInfoSocialedia_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkFillCompanyInfoCustomers_infoFirmProfile' => 'restApiDefaultCall', 
-                                    'pkFillCompanyInfoProducts_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkFillCompanyInfoSectors_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkFillCompanyInfoBuildingNpk_infoFirmProfile' => 'restApiDefaultCall',
-        
-        
-                                    'fillCompanyListsGuest_infoFirmProfile' => 'restApiDefaultCall',
-                                    'fillCompanyInfoEmployeesGuest_infoFirmProfile' => 'restApiDefaultCall',
-                                    'fillCompanyInfoSocialediaGuest_infoFirmProfile' => 'restApiDefaultCall',
-                                    'fillCompanyInfoReferencesGuest_infoFirmProfile' => 'restApiDefaultCall',
-                                    'fillCompanyInfoCustomersGuest_infoFirmProfile' => 'restApiDefaultCall', 
-                                    'fillCompanyInfoProductsGuest_infoFirmProfile' => 'restApiDefaultCall',
-                                    'fillCompanyInfoSectorsGuest_infoFirmProfile' => 'restApiDefaultCall',
-                                    
-                                    'pkFillFirmFullVerbal_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkGetFirmProfileConsultant_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkFillConsultantAllowFirmListDds_infoFirmProfile' => 'restApiDefaultCall',
-         
-                                    'pkInsertConsAct_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkUpdateConsAct_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkFillConsCompanyLists_infoFirmProfile' => 'restApiDefaultCall',
-                                    'pkUpdateMakeActiveOrPassive_infoFirmProfile' => 'restApiDefaultCall',
-        
-        
-        
-        
-        
-         //**---- infoFirmProfile -------------------
          //** sysAclRoles ----------------------
                                     'pkDelete_sysAclRoles' => 'restApiDefaultCall',
                                     'pkGetAll_sysAclRoles' => 'restApiDefaultCall',
@@ -237,8 +175,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillPrivilegesOfRolesList_sysAclPrivilege' => 'restApiDefaultCall',        
         
                         
-         //**---- sysAclPrivilege -------------------          
-        
+         //**---- sysAclPrivilege ------------------- 
          //** SysAclRrp ----------------------
                                     'pkDelete_sysAclRrp' => 'restApiDefaultCall',
                                     'pkGetAll_sysAclRrp' => 'restApiDefaultCall',
@@ -249,11 +186,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillRrpList_sysAclRrp' => 'restApiDefaultCall',  
                                     'pkUpdateMakeActiveOrPassive_sysAclRrp' => 'restApiDefaultCall',
                                     'pkTransferRolesPrivilege_sysAclRrp' => 'restApiDefaultCall',
-                                   
-     
-         //**---- SysAclRrp ------------------- 
-        
-        
+         //**---- SysAclRrp -------------------         
          //** SysAclRrpRestservices ----------------------
                                     'pkDelete_sysAclRrpRestservices' => 'restApiDefaultCall',
                                     'pkGetAll_sysAclRrpRestservices' => 'restApiDefaultCall',
@@ -265,24 +198,16 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillRestServicesOfPrivileges_sysAclRrpRestservices' => 'restApiDefaultCall',
                                     'pkFillNotInRestServicesOfPrivileges_sysAclRrpRestservices' => 'restApiDefaultCall',
                                     'pkFillNotInRestServicesOfPrivilegesTree_sysAclRrpRestservices' => 'restApiDefaultCall',
-                                    'pkFillRestServicesOfPrivilegesTree_sysAclRrpRestservices' => 'restApiDefaultCall',
-                                  
-        
-        
-     
-         //**---- SysAclRrpRestservices ------------------- 
-        
-        
+                                    'pkFillRestServicesOfPrivilegesTree_sysAclRrpRestservices' => 'restApiDefaultCall',                                
+         //**---- SysAclRrpRestservices -------------------  
             //** SysAclRrpMap ----------------------
                                     'pkDelete_sysAclRrpMap' => 'restApiDefaultCall',
                                     'pkGetAll_sysAclRrpMap' => 'restApiDefaultCall',
                                     'pkInsert_sysAclRrpMap' => 'restApiDefaultCall',
                                     'pkUpdate_sysAclRrpMap' => 'restApiDefaultCall',
                                     'pkFillGrid_sysAclRrpMap' => 'restApiDefaultCall',                                    
-                                    'pkFillRrpMap_sysAclRrpMap' => 'restApiDefaultCall',  
-     
-         //**---- SysAclRrpMap -------------------    
-          
+                                    'pkFillRrpMap_sysAclRrpMap' => 'restApiDefaultCall',       
+         //**---- SysAclRrpMap ------------------- 
          //** SysAclModules ----------------------
                                     'pkDelete_sysAclModules' => 'restApiDefaultCall',
                                     'pkGetAll_sysAclModules' => 'restApiDefaultCall',
@@ -310,7 +235,6 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillActionList_sysAclActions' => 'restApiDefaultCall',
                                     'pkUpdateMakeActiveOrPassive_sysAclActions' => 'restApiDefaultCall',
                                     'pkFillActionDdList_sysAclActions' => 'restApiDefaultCall', 
-                                     
          //**---- SysAclActions -------------------  
           //** SysAclMenuTypesActions ----------------------
                                     'pkDelete_sysAclMenuTypesActions' => 'restApiDefaultCall',
@@ -322,11 +246,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillMenuTypesActionList_sysAclMenuTypesActions' => 'restApiDefaultCall',  
                                     'pkFillMenuTypesActionLeftList_sysAclMenuTypesActions' => 'restApiDefaultCall',                                    
                                     'pkUpdateMakeActiveOrPassive_sysAclMenuTypesActions' => 'restApiDefaultCall',
-                                    
-                                     
          //**---- SysAclMenuTypesActions -------------------  
-        
-        
          //** sysSpecificDefinitions ----------------------
                                     'fillMainDefinitions_sysSpecificDefinitions' => 'restApiDefaultCall',
                                     'fillFullDefinitions_sysSpecificDefinitions' => 'restApiDefaultCall',
@@ -336,8 +256,6 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'fillPersonnelTypes_sysSpecificDefinitions' => 'restApiDefaultCall',
                                     'fillAddressTypes_sysSpecificDefinitions' => 'restApiDefaultCall',
                                     'fillSexTypes_sysSpecificDefinitions' => 'restApiDefaultCall',
-                             
-     
          //**---- sysSpecificDefinitions -------------------    
          //** infoUsersCommunications ----------------------
                                     'pkDelete_infoUsersCommunications' => 'restApiDefaultCall',
@@ -355,11 +273,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pktempFillUserCommunicationsTypes_infoUsersCommunications' => 'restApiDefaultCall',
                                     'pktempFillGridSingular_infoUsersCommunications' => 'restApiDefaultCall',
                                     'pktempFillGridSingularRowTotalCount_infoUsersCommunications' => 'restApiDefaultCall',
-                                    
-        
-        
-         //**---- infoUsersCommunications -------------------
-        
+         //**---- infoUsersCommunications -------------------        
         //** InfoUsersAddresses ----------------------
                                     'pkDelete_infoUsersAddresses' => 'restApiDefaultCall',
                                     'pkGetAll_infoUsersAddresses' => 'restApiDefaultCall',
@@ -375,9 +289,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pktempDeletedAct_infoUsersAddresses' => 'restApiDefaultCall',
                                     'pktempFillUserAddressesTypes_infoUsersAddresses' => 'restApiDefaultCall',
                                     'pktempFillGridSingular_infoUsersAddresses' => 'restApiDefaultCall',
-                                    'pktempFillGridSingularRowTotalCount_infoUsersAddresses' => 'restApiDefaultCall',                                    
-        
-        
+                                    'pktempFillGridSingularRowTotalCount_infoUsersAddresses' => 'restApiDefaultCall',  
          //**---- InfoUsersAddresses -------------------
          //** BlActivationReport ----------------------
                                     'pkDelete_blActivationReport' => 'restApiDefaultCall',
@@ -390,162 +302,30 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkGetConsultantFirmCount_blActivationReport' => 'restApiDefaultCall',
                                     'pkGetConsultantUpDashBoardCount_blActivationReport' => 'restApiDefaultCall',
                                     'pkGetConsWaitingForConfirm_blActivationReport' => 'restApiDefaultCall',
-                                     
-         
-        
-         //**---- BlActivationReport -------------------   
-      
-        
-        
-         //** sysOsb ----------------------
-                                    'pkDelete_sysOsb' => 'restApiDefaultCall',
-                                    'pkGetAll_sysOsb' => 'restApiDefaultCall',
-                                    'pkInsert_sysOsb' => 'restApiDefaultCall',
-                                    'pkUpdate_sysOsb' => 'restApiDefaultCall',
-        
-                                    'pkFillOsbDdlist_sysOsb' => 'restApiDefaultCall',
-                                    'pkFillOsbList_sysOsb' => 'restApiDefaultCall',
-                                    'pkUpdateMakeActiveOrPassive_sysOsb' => 'restApiDefaultCall',        
-        
-         //**---- sysOsb-------------------   
-        
-        //** sysOsbConsultants ----------------------
-                                    'pkDelete_sysOsbConsultants' => 'restApiDefaultCall',
-                                    'pkGetAll_sysOsbConsultants' => 'restApiDefaultCall',
-                                    'pkInsert_sysOsbConsultants' => 'restApiDefaultCall',
-                                    'pkUpdate_sysOsbConsultants' => 'restApiDefaultCall',
-        
-                                    'pkGetConsPendingFirmProfile_sysOsbConsultants' => 'restApiDefaultCall',
-                                    'pkGetConsPendingFirmProfilertc_sysOsbConsultants' => 'restApiDefaultCall',
-                                    'pkGetConsConfirmationProcessDetails_sysOsbConsultants' => 'restApiDefaultCall',
-                                    'pkcpkGetAllFirmCons_sysOsbConsultants' => 'restApiDefaultCall',
-                                    'pkFillOsbConsultantListGrid_sysOsbConsultants' => 'restApiDefaultCall',
-                                    'pkUpdateMakeActiveOrPassive_sysOsbConsultants' => 'restApiDefaultCall',
-        
-        
-         //**---- sysOsbConsultants -------------------   
-        //** SysOsbClusters ----------------------
-                                    'pkDelete_sysOsbClusters' => 'restApiDefaultCall',
-                                    'pkGetAll_sysOsbClusters' => 'restApiDefaultCall',
-                                    'pkInsert_sysOsbClusters' => 'restApiDefaultCall',
-                                    'pkUpdate_sysOsbClusters' => 'restApiDefaultCall',
-        
-                                    'pkFillOsbClusterLists_sysOsbClusters' => 'restApiDefaultCall',                         
-                                    'pkUpdateMakeActiveOrPassive_sysOsbClusters' => 'restApiDefaultCall',        
-                                    'pkFillOsbClustersDdlist_sysOsbClusters' => 'restApiDefaultCall',        
-        
-         //**---- SysOsbClusters -------------------   
-        //** SysOsbClustersFirms ----------------------
-                                    'pkDelete_sysOsbClustersFirms' => 'restApiDefaultCall',
-                                    'pkGetAll_sysOsbClustersFirms' => 'restApiDefaultCall',
-                                    'pkInsert_sysOsbClustersFirms' => 'restApiDefaultCall',
-                                    'pkUpdate_sysOsbClustersFirms' => 'restApiDefaultCall',
-        
-                                    'pkFillClustersFirmLists_sysOsbClustersFirms' => 'restApiDefaultCall',                         
-                                    'pkUpdateMakeActiveOrPassive_sysOsbClustersFirms' => 'restApiDefaultCall',        
-        
-         //**---- SysOsbClustersFirms -------------------          
-        
+         //**---- BlActivationReport -------------------  
          //** sysOperationTypes ----------------------
                                     'pkDelete_sysOperationTypes' => 'restApiDefaultCall',
                                     'pkGetAll_sysOperationTypes' => 'restApiDefaultCall',
                                     'pkInsert_sysOperationTypes' => 'restApiDefaultCall',
                                     'pkUpdate_sysOperationTypes' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysOperationTypes' => 'restApiDefaultCall',                                    
-                                    
+                                    'pkFillGrid_sysOperationTypes' => 'restApiDefaultCall', 
                                     'pkFillConsultantOperationsDropDown_sysOperationTypes' => 'restApiDefaultCall',
-                                   
-        
-         //**---- sysOperationTypes -------------------   
-        
+         //**---- sysOperationTypes -------------------           
         //** sysOperationTypesTools ----------------------
                                     'pkDelete_sysOperationTypesTools' => 'restApiDefaultCall',
                                     'pkGetAll_sysOperationTypesTools' => 'restApiDefaultCall',
                                     'pkInsert_sysOperationTypesTools' => 'restApiDefaultCall',
                                     'pkUpdate_sysOperationTypesTools' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysOperationTypesTools' => 'restApiDefaultCall',                                    
-                                    
+                                    'pkFillGrid_sysOperationTypesTools' => 'restApiDefaultCall',
                                     'pkFillConsultantOperationsToolsDropDown_sysOperationTypesTools' => 'restApiDefaultCall',
-                                   
-        
-         //**---- sysOperationTypesTools -------------------   
-        
-         
+         //**---- sysOperationTypesTools -------------------                  
         //** InfoError ----------------------
                                     'pkDelete_infoError' => 'restApiDefaultCall',
                                     'pkGetAll_infoError' => 'restApiDefaultCall',
                                     'pkInsert_infoError' => 'restApiDefaultCall',
                                     'pkUpdate_infoError' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoError' => 'restApiDefaultCall',                                    
-
-
+                                    'pkFillGrid_infoError' => 'restApiDefaultCall',    
          //**---- InfoError -------------------   
-        
-         //** SysMachineToolGroups ----------------------
-                                    'pkDelete_sysMachineToolGroups' => 'restApiDefaultCall',
-                                    'pkGetAll_sysMachineToolGroups' => 'restApiDefaultCall',
-                                    'pkInsert_sysMachineToolGroups' => 'restApiDefaultCall',
-                                    'pkUpdate_sysMachineToolGroups' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysMachineToolGroups' => 'restApiDefaultCall',                                    
-        
-                                    'pkFillMachineToolGroups_sysMachineToolGroups' => 'restApiDefaultCall',
-                                    'pkFillJustMachineToolGroups_sysMachineToolGroups' => 'restApiDefaultCall',
-                                    'pkFillMachineToolGroupsMachineProperties_sysMachineToolGroups' => 'restApiDefaultCall',
-                                    'pkFillJustMachineToolGroupsBootstrap_sysMachineToolGroups' => 'restApiDefaultCall',
-                                    'pkFillJustMachineToolGroupsNotInProperty_sysMachineToolGroups' => 'restApiDefaultCall',
-                                    
-        
-
-
-         //**---- SysMachineToolGroups -------------------   
-        
-       //** SysMachineTools ----------------------
-                                    'pkDelete_sysMachineTools' => 'restApiDefaultCall',
-                                    'pkGetAll_sysMachineTools' => 'restApiDefaultCall',
-                                    'pkInsert_sysMachineTools' => 'restApiDefaultCall',
-                                    'pkUpdate_sysMachineTools' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysMachineTools' => 'restApiDefaultCall', 
-                                    'pkGetMachineTools_sysMachineTools' => 'restApiDefaultCall',  
-                                    'pkGetMachineToolsGrid_sysMachineTools' => 'restApiDefaultCall',  
-                                    'pkGetMachineProperities_sysMachineTools' => 'restApiDefaultCall',          
-                                    'pkUpdateMakeActiveOrPassive_sysMachineTools' => 'restApiDefaultCall',        
-
-         //**---- SysMachineTools -------------------   
-         //** sysMachineToolPropertyDefinition ----------------------
-                                    'pkDelete_sysMachineToolPropertyDefinition' => 'restApiDefaultCall',
-                                    'pkGetAll_sysMachineToolPropertyDefinition' => 'restApiDefaultCall',
-                                    'pkInsert_sysMachineToolPropertyDefinition' => 'restApiDefaultCall',
-                                    'pkInsertPropertyUnit_sysMachineToolPropertyDefinition' => 'restApiDefaultCall',        
-        
-                                    'pkUpdate_sysMachineToolPropertyDefinition' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysMachineToolPropertyDefinition' => 'restApiDefaultCall',
-        
-                                    'pkFillMachineToolGroupPropertyDefinitions_sysMachineToolPropertyDefinition' => 'restApiDefaultCall',
-                                    'pkUpdateMakeActiveOrPassive_sysMachineToolPropertyDefinition' => 'restApiDefaultCall',
-                                    'pkFillMachineGroupPropertyDefinitions_sysMachineToolPropertyDefinition' => 'restApiDefaultCall', 
-                                    'pkFillMachineGroupNotInPropertyDefinitions_sysMachineToolPropertyDefinition' => 'restApiDefaultCall', 
-                                    'pkDeletePropertyMachineGroup_sysMachineToolPropertyDefinition' => 'restApiDefaultCall',
-                                    'pkFillMachineGroupProperties_sysMachineToolPropertyDefinition' => 'restApiDefaultCall',
-                                    'pkTransferPropertyMachineGroup_sysMachineToolPropertyDefinition' => 'restApiDefaultCall',        
-                                    'pkFillPropertieslist_sysMachineToolPropertyDefinition' => 'restApiDefaultCall',        
-        
-        
-        
-        
-         //**---- sysMachineToolPropertyDefinition -------------------   
-         //** SysMachineToolProperties ----------------------
-                                    'pkDelete_sysMachineToolProperties' => 'restApiDefaultCall',
-                                    'pkGetAll_sysMachineToolProperties' => 'restApiDefaultCall',
-                                    'pkInsert_sysMachineToolProperties' => 'restApiDefaultCall',
-                                    'pkUpdate_sysMachineToolProperties' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysMachineToolProperties' => 'restApiDefaultCall',
-                                    'pkFillMachineToolFullProperties_sysMachineToolProperties' => 'restApiDefaultCall',
-                                    'pkFillPropertyUnits_sysMachineToolProperties' => 'restApiDefaultCall',
-                                    'pkDeletePropertyMachine_sysMachineToolProperties' => 'restApiDefaultCall',
-                                    'pkFillMachinePropertiesSubGridList_sysMachineToolProperties' => 'restApiDefaultCall',                                  
-        
-        
-         //**---- SysMachineToolProperties -------------------   
         //** SysUnits ----------------------
                                     'pkDelete_sysUnits' => 'restApiDefaultCall',                                    
                                     'pkInsert_sysUnits' => 'restApiDefaultCall',
@@ -554,11 +334,8 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillGrid_sysUnits' => 'restApiDefaultCall',                                    
                                     'pkGetUnits_sysUnits' => 'restApiDefaultCall',
                                     'pkFillUnitsTree_sysUnits' => 'restApiDefaultCall',   
-                                    'pkUpdateMakeActiveOrPassive_sysUnits' => 'restApiDefaultCall',        
-        
-                                 
-         //**---- SysUnits -------------------   
-         
+                                    'pkUpdateMakeActiveOrPassive_sysUnits' => 'restApiDefaultCall',  
+         //**---- SysUnits -------------------            
         //** sysUnitSystems ----------------------
                                     'pkDelete_sysUnitSystems' => 'restApiDefaultCall',                                    
                                     'pkInsert_sysUnitSystems' => 'restApiDefaultCall',
@@ -566,108 +343,41 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkGetAll_sysUnitSystems' => 'restApiDefaultCall',                                    
                                     'pkFillGrid_sysUnitSystems' => 'restApiDefaultCall',                                    
                                     'pkGetUnitSystems_sysUnitSystems' => 'restApiDefaultCall',
-                                    'pkFillUnitSystemsTree_sysUnitSystems' => 'restApiDefaultCall',        
-        
-                                 
-         //**---- sysUnitSystems -------------------   
-        
-
-        
-        //** InfoFirmMachineTool ----------------------
-                                    'pkDelete_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    'pkInsert_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    'pkUpdate_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    'pkDeletedAct_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    
-                                    'pkFillSingularFirmMachineTools_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    'pkFillSingularFirmMachineToolsRtc_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    'pkFillUsersFirmMachines_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    'pkFillUsersFirmMachineProperties_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    'pkFillFirmMachineGroupsCounts_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    'pkFillUsersFirmMachinesNpk_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    'pkFillAllCompanyMachineLists_infoFirmMachineTool' => 'restApiDefaultCall',
-        
-                                    'pkInsertCons_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    'pkUpdateCons_infoFirmMachineTool' => 'restApiDefaultCall',        
-                                    'pkDeleteConsAct_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    'pkFillConsCompanyMachineLists_infoFirmMachineTool' => 'restApiDefaultCall',
-                                    'pkUpdateMakeActiveOrPassive_infoFirmMachineTool' => 'restApiDefaultCall',
-        
-                                         
-         //**---- InfoFirmMachineTool -------------------   
-        //** SysNaceCodes ----------------------
-                                    'pkDelete_sysNaceCodes' => 'restApiDefaultCall',
-                                    'pkGetAll_sysNaceCodes' => 'restApiDefaultCall',
-                                    'pkInsert_sysNaceCodes' => 'restApiDefaultCall',
-                                    'pkUpdate_sysNaceCodes' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysNaceCodes' => 'restApiDefaultCall',
-                                    'pkFillNaceCodes_sysNaceCodes' => 'restApiDefaultCall',                                     
-                                         
-        //**---- SysNaceCodes -------------------   
+                                    'pkFillUnitSystemsTree_sysUnitSystems' => 'restApiDefaultCall',  
+         //**---- sysUnitSystems -------------------
         //** HstryLogin ----------------------                                    
                                     'pkGetAll_hstryLogin' => 'restApiDefaultCall',
                                     'pkInsert_hstryLogin' => 'restApiDefaultCall',                                    
-                                    'pkFillGrid_hstryLogin' => 'restApiDefaultCall',
-                                         
-        //**---- HstryLogin -------------------    
-        
-         //** BlAdminActivationReport ----------------------
-                                  
+                                    'pkFillGrid_hstryLogin' => 'restApiDefaultCall',                                         
+        //**---- HstryLogin -------------------   
+         //** BlAdminActivationReport ----------------------                                  
                                     'pkGetAll_blAdminActivationReport' => 'restApiDefaultCall',
-                                    'pkInsert_blAdminActivationReport' => 'restApiDefaultCall',                                  
-        
+                                    'pkInsert_blAdminActivationReport' => 'restApiDefaultCall',        
                                     'pkGetConsultantOperation_blAdminActivationReport' => 'restApiDefaultCall',
                                     'pkGetAllConsultantFirmCount_blAdminActivationReport' => 'restApiDefaultCall',
                                     'pkGetUpDashBoardCount_blAdminActivationReport' => 'restApiDefaultCall',
-                                    'pkGetDashBoardHighCharts_blAdminActivationReport' => 'restApiDefaultCall',                                     
-         
-        
-         //**---- BlAdminActivationReport -------------------  
-        
-        
-       //** LogConnection ----------------------
-                                  
+                                    'pkGetDashBoardHighCharts_blAdminActivationReport' => 'restApiDefaultCall',
+         //**---- BlAdminActivationReport -------------------          
+       //** LogConnection ----------------------                                  
                                     'pkGetAll_logConnection' => 'restApiDefaultCall',
                                     'pkInsert_logConnection' => 'restApiDefaultCall',                                    
-                                    'pkFillGrid_logConnection' => 'restApiDefaultCall',
-                                    
+                                    'pkFillGrid_logConnection' => 'restApiDefaultCall',                                    
          //**---- LogConnection -------------------   
-         //** logServices ----------------------
-                                   
+         //** logServices ----------------------                                   
                                     'pkGetAll_logServices' => 'restApiDefaultCall',
                                     'pkInsert_logServices' => 'restApiDefaultCall',                                    
-                                    'pkFillGrid_logServices' => 'restApiDefaultCall',
-                                    
-         //**---- logServices -------------------   
-       
-         //** LogConsultant ----------------------
-                                  
+                                    'pkFillGrid_logServices' => 'restApiDefaultCall',                                    
+         //**---- logServices -------------------          
+         //** LogConsultant ----------------------                                  
                                     'pkGetAll_logConsultant' => 'restApiDefaultCall',
                                     'pkInsert_logConsultant' => 'restApiDefaultCall',                                    
-                                    'pkFillGrid_logConsultant' => 'restApiDefaultCall',
-                                    
+                                    'pkFillGrid_logConsultant' => 'restApiDefaultCall',                                    
          //**---- LogConsultant -------------------   
-       
-        
-        
-        //** LogAdmin ----------------------
-                                  
+        //** LogAdmin ----------------------                                  
                                     'pkGetAll_logAdmin' => 'restApiDefaultCall',
                                     'pkInsert_logAdmin' => 'restApiDefaultCall',                                    
-                                    'pkFillGrid_logAdmin' => 'restApiDefaultCall',
-                                    
-         //**---- LogAdmin -------------------   
-       
-        //** sysUnspscCodes ----------------------                                    
-                                    'pkGetAll_sysUnspscCodes' => 'restApiDefaultCall',                                   
-                                    
-                                    'pkFillGrid_sysUnspscCodes' => 'restApiDefaultCall',                                    
-                                    'pkGetUnspscCodes_sysUnspscCodes' => 'restApiDefaultCall',
-                                    'pkFillUnspscCodesTree_sysUnspscCodes' => 'restApiDefaultCall',
-         
-         //**---- sysUnspscCodes -------------------   
+                                    'pkFillGrid_logAdmin' => 'restApiDefaultCall',                                    
+         //**---- LogAdmin ------------------- 
         //** SysCertifications ----------------------
                                     'pkDelete_sysCertifications' => 'restApiDefaultCall',
                                     'pkGetAll_sysCertifications' => 'restApiDefaultCall',
@@ -675,34 +385,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkUpdate_sysCertifications' => 'restApiDefaultCall',
                                     'pkFillGrid_sysCertifications' => 'restApiDefaultCall',
                                     'pkFillCertificationsDdList_sysCertifications' => 'restApiDefaultCall',
-        
-                                         
-        //**---- SysCertifications -------------------    
-        
-        //** InfoFirmReferences ----------------------
-                                    'pkDelete_infoFirmReferences' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmReferences' => 'restApiDefaultCall',
-                                    'pkInsert_infoFirmReferences' => 'restApiDefaultCall',
-                                    'pkUpdate_infoFirmReferences' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmReferences' => 'restApiDefaultCall',
-                                    'pkDeletedAct_infoFirmReferences' => 'restApiDefaultCall',
-                                    'pkFillGridSingular_infoFirmReferences' => 'restApiDefaultCall',
-                                    'pkFillWithReference_infoFirmReferences' => 'restApiDefaultCall',
-                                    'pkFillBeReferenced_infoFirmReferences' => 'restApiDefaultCall',
-        
-         //**---- InfoFirmReferences -------------------
-        
-         //** SysProductionTypes ----------------------
-                                    'pkDelete_sysProductionTypes' => 'restApiDefaultCall',
-                                    'pkGetAll_sysProductionTypes' => 'restApiDefaultCall',
-                                    'pkInsert_sysProductionTypes' => 'restApiDefaultCall',
-                                    'pkUpdate_sysProductionTypes' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysProductionTypes' => 'restApiDefaultCall',
-                                    'pkFillProductionTypesTree_sysProductionTypes' => 'restApiDefaultCall',   
-                                    'pkUpdateMakeActiveOrPassive_sysProductionTypes' => 'restApiDefaultCall',        
-        
-                                         
-        //**---- SysProductionTypes -------------------    
+        //**---- SysCertifications ------------------- 
          //** infoFirmUsers ----------------------
                                     'pkDelete_infoFirmUsers' => 'restApiDefaultCall',
                                     'pkGetAll_infoFirmUsers' => 'restApiDefaultCall',
@@ -714,21 +397,8 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillGridSingular_infoFirmUsers' => 'restApiDefaultCall',                                                                        
                                     'pkFillGridSingularNpk_infoFirmUsers' => 'restApiDefaultCall',
                                     'pkUpdateMakeActiveOrPassive_infoFirmUsers' => 'restApiDefaultCall',
-                                    'pkFillCompanyUsersSocialMediaNpk_infoFirmUsers' => 'restApiDefaultCall',        
-                                        
-         //**---- infoFirmUsers -------------------   
-        
-         //** SysMachineToolDefinitionAttribute ----------------------
-                                    'pkDelete_sysMachineToolDefinitionAttribute' => 'restApiDefaultCall',
-                                    'pkGetAll_sysMachineToolDefinitionAttribute' => 'restApiDefaultCall',
-                                    'pkInsert_sysMachineToolDefinitionAttribute' => 'restApiDefaultCall',
-                                    'pkUpdate_sysMachineToolDefinitionAttribute' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysMachineToolDefinitionAttribute' => 'restApiDefaultCall',
-                                    
-                                    'pkFillMachineToolDefinitionsAttributes_sysMachineToolDefinitionAttribute' => 'restApiDefaultCall',   
-                                    'pkUpdateMakeActiveOrPassive_sysMachineToolDefinitionAttribute' => 'restApiDefaultCall',        
-                                                 
-        //**---- SysMachineToolDefinitionAttribute -------------------    
+                                    'pkFillCompanyUsersSocialMediaNpk_infoFirmUsers' => 'restApiDefaultCall',
+         //**---- infoFirmUsers -------------------  
         //** InfoUsersSocialmedia ----------------------
                                     'pkDelete_infoUsersSocialmedia' => 'restApiDefaultCall',
                                     'pkGetAll_infoUsersSocialmedia' => 'restApiDefaultCall',
@@ -740,50 +410,17 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkUpdateMakeActiveOrPassive_infoUsersSocialmedia' => 'restApiDefaultCall',        
                                     'pkDeletedAct_infoUsersSocialmedia' => 'restApiDefaultCall',
                                     'pkFillCompanyUsersSocialMediaNpk_infoUsersSocialmedia' => 'restApiDefaultCall',
-        
-        
-        //**---- infoUsersSocialmedia -------------------    
-        //** InfoFirmVerbal ----------------------
-                                    'pkDelete_infoFirmVerbal' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmVerbal' => 'restApiDefaultCall',
-                                    'pkcpkInsert_infoFirmVerbal' => 'restApiDefaultCall',
-                                    'pkcpkUpdate_infoFirmVerbal' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmVerbal' => 'restApiDefaultCall',                                    
-                                    
-                                    'pkcpkDeletedAct_infoFirmVerbal' => 'restApiDefaultCall',
-                                    'pkFillUsersFirmVerbalNpk_infoFirmVerbal' => 'restApiDefaultCall',
-                                    'fillUsersFirmVerbalNpkGuest_infoFirmVerbal' => 'restApiDefaultCall',
-                                    'pkcpkGetFirmVerbalConsultant_infoFirmVerbal' => 'restApiDefaultCall',        
-                                    'sendMailConsultant_infoFirmVerbal' => 'restApiDefaultCall', 
-        
-        
-        //**---- InfoFirmVerbal ------------------- 
-        //** InfoFirmUserDescForCompany ----------------------
-                                    'pkDelete_infoFirmUserDescForCompany' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmUserDescForCompany' => 'restApiDefaultCall',
-                                    'pkInsert_infoFirmUserDescForCompany' => 'restApiDefaultCall',
-                                    'pkUpdate_infoFirmUserDescForCompany' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmUserDescForCompany' => 'restApiDefaultCall',                                    
-                                    
-                                    'pkDeletedAct_infoFirmUserDescForCompany' => 'restApiDefaultCall',
-                                    'pkFillUsersDescForFirmVerbalNpk_infoFirmUserDescForCompany' => 'restApiDefaultCall',
-                                    'fillUsersDescForFirmVerbalNpkGuest_infoFirmUserDescForCompany' => 'restApiDefaultCall',
-        
-        //**---- InfoFirmUserDescForCompany ------------------- 
-        
+        //**---- infoUsersSocialmedia ------------------- 
         //** SysSocialMedia ----------------------
                                     'pkDelete_sysSocialMedia' => 'restApiDefaultCall',
                                     'pkGetAll_sysSocialMedia' => 'restApiDefaultCall',
                                     'pkInsert_sysSocialMedia' => 'restApiDefaultCall',
                                     'pkUpdate_sysSocialMedia' => 'restApiDefaultCall',
                                     'pkFillGrid_sysSocialMedia' => 'restApiDefaultCall',                                    
-                                    
                                     'pkUpdateMakeActiveOrPassive_sysSocialMedia' => 'restApiDefaultCall',        
                                     'pkFillSocicalMediaDdList_sysSocialMedia' => 'restApiDefaultCall', 
-                                    
-        
         //**---- SysSocialMedia ------------------- 
-          //** SysUniversities ----------------------
+        //** SysUniversities ----------------------
                                     'pkDelete_sysUniversities' => 'restApiDefaultCall',
                                     'pkGetAll_sysUniversities' => 'restApiDefaultCall',
                                     'pkInsert_sysUniversities' => 'restApiDefaultCall',
@@ -792,49 +429,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     
                                     'pkUpdateMakeActiveOrPassive_sysUniversities' => 'restApiDefaultCall',        
                                     'pkFillUniversityDdList_sysUniversities' => 'restApiDefaultCall', 
-                                    
-        
         //**---- SysUniversities ------------------- 
-        
-        
-          
-        //** InfoFirmSocialmedia ----------------------
-                                    'pkDelete_infoFirmSocialmedia' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmSocialmedia' => 'restApiDefaultCall',
-                                    'pkInsert_infoFirmSocialmedia' => 'restApiDefaultCall',
-                                    'pkUpdate_infoFirmSocialmedia' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmSocialmedia' => 'restApiDefaultCall',
-                                    
-                                    'pkDeletedAct_infoFirmSocialmedia' => 'restApiDefaultCall',
-                                    'pkUpdateMakeActiveOrPassive_infoFirmSocialmedia' => 'restApiDefaultCall',
-                                    'pkFillSingularFirmSocialMedia_infoFirmSocialmedia' => 'restApiDefaultCall', 
-                                    
-        
-        //**---- InfoFirmSocialmedia -------------------  
-           
-        //** InfoFirmAddress ----------------------
-                                    'pkDelete_infoFirmAddress' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmAddress' => 'restApiDefaultCall',
-                                    'pkInsert_infoFirmAddress' => 'restApiDefaultCall',
-                                    'pkcpkUpdate_infoFirmAddress' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmAddress' => 'restApiDefaultCall',
-                                    
-                                    'pkDeletedAct_infoFirmAddress' => 'restApiDefaultCall',                                    
-                                    'pkFillSingularFirmAddress_infoFirmAddress' => 'restApiDefaultCall', 
-                                    'pkFillUsersFirmAddressNpk_infoFirmAddress' => 'restApiDefaultCall', 
-                                    'FillUsersFirmAddressNpkQuest_infoFirmAddress' => 'restApiDefaultCall', 
-                                            
-        //**---- InfoFirmAddress -------------------  
-        //** SysManufacturer ----------------------
-                                    'pkDelete_sysManufacturer' => 'restApiDefaultCall',
-                                    'pkGetAll_sysManufacturer' => 'restApiDefaultCall',
-                                    'pkInsert_sysManufacturer' => 'restApiDefaultCall',
-                                    'pkUpdate_sysManufacturer' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysManufacturer' => 'restApiDefaultCall',                                    
-                                    
-                                    'pkUpdateMakeActiveOrPassive_sysManufacturer' => 'restApiDefaultCall',        
-                                    'pkFillManufacturerList_sysManufacturer' => 'restApiDefaultCall', 
-        //**---- SysManufacturer ------------------- 
          //** SysMailServer ----------------------
                                     'pkDelete_sysMailServer' => 'restApiDefaultCall',
                                     'pkGetAll_sysMailServer' => 'restApiDefaultCall',
@@ -844,112 +439,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     
                                     'pkUpdateMakeActiveOrPassive_sysMailServer' => 'restApiDefaultCall',        
                                     'pkFillMailServerList_sysMailServer' => 'restApiDefaultCall', 
-        //**---- SysMailServer ------------------- 
-        
-        //** infoFirmProducts ----------------------
-                                    'pkDelete_infoFirmProducts' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmProducts' => 'restApiDefaultCall',
-                                    'pkInsert_infoFirmProducts' => 'restApiDefaultCall',
-                                    'pkUpdate_infoFirmProducts' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmProducts' => 'restApiDefaultCall',
-                                    
-                                    'pkDeletedAct_infoFirmProducts' => 'restApiDefaultCall',                                    
-                                    'pkFillFirmProductsNpk_infoFirmProducts' => 'restApiDefaultCall', 
-                                    'pkFillFirmProductsNpkQuest_infoFirmProducts' => 'restApiDefaultCall', 
-                                    'pkFillFirmProductsGtip_infoFirmProducts' => 'restApiDefaultCall', 
-                                            
-        //**---- infoFirmProducts -------------------  
-        //** InfoFirmProductsServices ----------------------
-                                    'pkDelete_infoFirmProductsServices' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmProductsServices' => 'restApiDefaultCall',
-                                    'pkInsert_infoFirmProductsServices' => 'restApiDefaultCall',
-                                    'pkUpdate_infoFirmProductsServices' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmProductsServices' => 'restApiDefaultCall',
-                                    
-                                    'pkDeletedAct_infoFirmProductsServices' => 'restApiDefaultCall',                                    
-                                    'pkFillFirmProductsServicesNpk_infoFirmProductsServices' => 'restApiDefaultCall', 
-                                    'FillFirmProductsServicesNpkQuest_infoFirmProductsServices' => 'restApiDefaultCall', 
-                                    'pkUpdateMakeActiveOrPassive_infoFirmProductsServices' => 'restApiDefaultCall',        
-                                            
-        //**---- InfoFirmProductsServices -------------------  
-        //** InfoFirmCertificate ----------------------
-                                    'pkDelete_infoFirmCertificate' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmCertificate' => 'restApiDefaultCall',
-                                    'pkInsert_infoFirmCertificate' => 'restApiDefaultCall',
-                                    'pkUpdate_infoFirmCertificate' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmCertificate' => 'restApiDefaultCall',
-                                    
-                                    'pkDeletedAct_infoFirmCertificate' => 'restApiDefaultCall',                                    
-                                    'pkFillFirmCertificateNpk_infoFirmCertificate' => 'restApiDefaultCall', 
-                                    'FillFirmCertificateNpkQuest_infoFirmCertificate' => 'restApiDefaultCall', 
-                                    'pkUpdateMakeActiveOrPassive_infoFirmCertificate' => 'restApiDefaultCall',        
-                                            
-        //**---- InfoFirmCertificate -------------------  
-        
-        //** InfoFirmQuality ----------------------
-                                    'pkDelete_infoFirmQuality' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmQuality' => 'restApiDefaultCall',
-                                    'pkInsert_infoFirmQuality' => 'restApiDefaultCall',
-                                    'pkUpdate_infoFirmQuality' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmQuality' => 'restApiDefaultCall',
-                                    
-                                    'pkDeletedAct_infoFirmQuality' => 'restApiDefaultCall',
-                                    'pkFillFirmQualityCertificateNpk_infoFirmQuality' => 'restApiDefaultCall', 
-                                    'FillFirmQualityCertificateNpkQuest_infoFirmQuality' => 'restApiDefaultCall', 
-                                    'pkUpdateMakeActiveOrPassive_infoFirmQuality' => 'restApiDefaultCall',        
-                                            
-        //**---- InfoFirmQuality -------------------  
-         //** infoFirmSectoral ----------------------
-                                    'pkDelete_infoFirmSectoral' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmSectoral' => 'restApiDefaultCall',
-                                    'pkInsert_infoFirmSectoral' => 'restApiDefaultCall',
-                                    'pkUpdate_infoFirmSectoral' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmSectoral' => 'restApiDefaultCall',
-                                    
-                                    'pkDeletedAct_infoFirmSectoral' => 'restApiDefaultCall',
-                                    'pkFillFirmSectorNpk_infoFirmSectoral' => 'restApiDefaultCall', 
-                                    'FillFirmSectorNpkQuest_infoFirmSectoral' => 'restApiDefaultCall', 
-                                    'pkUpdateMakeActiveOrPassive_infoFirmSectoral' => 'restApiDefaultCall',
-                                            
-        //**---- infoFirmSectoral -------------------   
-         //** InfoFirmLanguageInfo ----------------------
-                                    'pkDelete_infoFirmLanguageInfo' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmLanguageInfo' => 'restApiDefaultCall',
-                                    'pkcpkInsert_infoFirmLanguageInfo' => 'restApiDefaultCall',
-                                    'pkcpkUpdate_infoFirmLanguageInfo' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmLanguageInfo' => 'restApiDefaultCall',
-                                    
-                                    'pkcpkDeletedAct_infoFirmLanguageInfo' => 'restApiDefaultCall',
-                                    'pkFillFirmLanguageNpk_infoFirmLanguageInfo' => 'restApiDefaultCall', 
-                                    'FillFirmLanguageNpkQuest_infoFirmLanguageInfo' => 'restApiDefaultCall', 
-                                    'pkUpdateMakeActiveOrPassive_infoFirmLanguageInfo' => 'restApiDefaultCall',
-                                    'pkFillFindFirmLanguageId_infoFirmLanguageInfo' => 'restApiDefaultCall', 
-        //**---- InfoFirmLanguageInfo -------------------   
-        
-        //** SysCustomerCriterion ----------------------
-                                    'pkDelete_sysCustomerCriterion' => 'restApiDefaultCall',
-                                    'pkGetAll_sysCustomerCriterion' => 'restApiDefaultCall',
-                                    'pkInsert_sysCustomerCriterion' => 'restApiDefaultCall',
-                                    'pkUpdate_sysCustomerCriterion' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysCustomerCriterion' => 'restApiDefaultCall',                                    
-                                    
-                                    'pkUpdateMakeActiveOrPassive_sysCustomerCriterion' => 'restApiDefaultCall',        
-                                    'pkFillCustomerCriterionDdList_sysCustomerCriterion' => 'restApiDefaultCall', 
-                                    
-        
-        //**---- SysCustomerCriterion ------------------- 
-        
-         //** SysClusters ----------------------
-                                    'pkDelete_sysClusters' => 'restApiDefaultCall',
-                                    'pkGetAll_sysClusters' => 'restApiDefaultCall',
-                                    'pkInsert_sysClusters' => 'restApiDefaultCall',
-                                    'pkUpdate_sysClusters' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysClusters' => 'restApiDefaultCall',                                    
-                                    'fillComboBox_sysClusters' => 'restApiDefaultCall',
-                                    
-                                    'pkFillClustersTree_sysClusters' => 'restApiDefaultCall',
-           
-        //**---- SysClusters -------------------
+        //**---- SysMailServer -------------------                  
         //** InfoUsersVerbal ----------------------
                                     'pkDelete_infoUsersVerbal' => 'restApiDefaultCall',
                                     'pkGetAll_infoUsersVerbal' => 'restApiDefaultCall',
@@ -972,44 +462,9 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkDeletedAct_infoUsersProductsServices' => 'restApiDefaultCall',
                                     'pkFillUserProductsServicesNpk_infoUsersProductsServices' => 'restApiDefaultCall', 
                                     'FillUserProductsServicesNpkQuest_infoUsersProductsServices' => 'restApiDefaultCall', 
-                                    'pkUpdateMakeActiveOrPassive_infoUsersProductsServices' => 'restApiDefaultCall',        
-                                            
-        //**---- InfoUsersProductsServices -------------------  
-          
-        //** InfoFirmWorkingPersonnel ----------------------
-                                    'pkDelete_infoFirmWorkingPersonnel' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmWorkingPersonnel' => 'restApiDefaultCall',
-                                    'pkcpkInsert_infoFirmWorkingPersonnel' => 'restApiDefaultCall',
-                                    'pkcpkUpdate_infoFirmWorkingPersonnel' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmWorkingPersonnel' => 'restApiDefaultCall',
-                                    
-                                    'pkcpkDeletedAct_infoFirmWorkingPersonnel' => 'restApiDefaultCall',
-                                    'pkFillFirmWorkingPersonalNpk_infoFirmWorkingPersonnel' => 'restApiDefaultCall', 
-                                    'FillFirmWorkingPersonalNpkQuest_infoFirmWorkingPersonnel' => 'restApiDefaultCall', 
-                                    'pkUpdateMakeActiveOrPassive_infoFirmWorkingPersonnel' => 'restApiDefaultCall',        
-                                    'pkFillFirmWorkingPersonalListGrid_infoFirmWorkingPersonnel' => 'restApiDefaultCall',        
-        
-                                            
-        //**---- InfoFirmWorkingPersonnel -------------------  
-        
-         //** InfoFirmWorkingPersonnelEducation ----------------------
-                                    'pkDelete_infoFirmWorkingPersonnelEducation' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmWorkingPersonnelEducation' => 'restApiDefaultCall',
-                                    'pkcpkInsert_infoFirmWorkingPersonnelEducation' => 'restApiDefaultCall',
-                                    'pkcpkUpdate_infoFirmWorkingPersonnelEducation' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmWorkingPersonnelEducation' => 'restApiDefaultCall',
-                                    
-                                    'pkcpkDeletedAct_infoFirmWorkingPersonnelEducation' => 'restApiDefaultCall',
-                                    'pkFillFirmWorkingPersonalEducationNpk_infoFirmWorkingPersonnelEducation' => 'restApiDefaultCall', 
-                                    'FillFirmWorkingPersonalEducationNpkQuest_infoFirmWorkingPersonnelEducation' => 'restApiDefaultCall', 
-                                    'pkUpdateMakeActiveOrPassive_infoFirmWorkingPersonnelEducation' => 'restApiDefaultCall',        
-                                    'pkFillFirmWorkingPersonalEducationListGrid_infoFirmWorkingPersonnelEducation' => 'restApiDefaultCall',        
-        
-                                            
-        //**---- InfoFirmWorkingPersonnelEducation -------------------  
-        
-        
-         //** SysOsbClustersAlliance ----------------------
+                                    'pkUpdateMakeActiveOrPassive_infoUsersProductsServices' => 'restApiDefaultCall',                                                    
+        //**---- InfoUsersProductsServices -------------------         
+        //** SysOsbClustersAlliance ----------------------
                                     'pkDelete_sysOsbClustersAlliance' => 'restApiDefaultCall',
                                     'pkGetAll_sysOsbClustersAlliance' => 'restApiDefaultCall',
                                     'pkInsert_sysOsbClustersAlliance' => 'restApiDefaultCall',
@@ -1019,7 +474,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkUpdateMakeActiveOrPassive_sysOsbClustersAlliance' => 'restApiDefaultCall',
                                     'pkFillGridAllianceList_sysOsbClustersAlliance' => 'restApiDefaultCall',                         
          //**---- SysOsbClustersAlliance ------------------- 
-          //** SysMembershipTypes ----------------------
+         //** SysMembershipTypes ----------------------
                                     'pkDelete_sysMembershipTypes' => 'restApiDefaultCall',
                                     'pkGetAll_sysMembershipTypes' => 'restApiDefaultCall',
                                     'pkInsert_sysMembershipTypes' => 'restApiDefaultCall',
@@ -1029,8 +484,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkUpdateMakeActiveOrPassive_sysMembershipTypes' => 'restApiDefaultCall',
                                     'pkFillMemberShipList_sysMembershipTypes' => 'restApiDefaultCall',
                                     'fillMemberShipList_sysMembershipTypes' => 'restApiDefaultCall',
-         //**---- SysMembershipTypes ------------------- 
-        
+         //**---- SysMembershipTypes -------------------         
           //** SysMenuTypes ----------------------
                                     'pkDelete_sysMenuTypes' => 'restApiDefaultCall',
                                     'pkGetAll_sysMenuTypes' => 'restApiDefaultCall',
@@ -1042,10 +496,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillMemberShipList_sysMenuTypes' => 'restApiDefaultCall',
                                     'pkFillMenuTypeList_sysMenuTypes' => 'restApiDefaultCall',
                                     'pkFillMenuTypeListGrid_sysMenuTypes' => 'restApiDefaultCall',
-        
-        
-         //**---- SysMenuTypes ------------------- 
-        
+         //**---- SysMenuTypes -------------------         
          //** SysServicesGroups ----------------------
                                     'pkDelete_sysServicesGroups' => 'restApiDefaultCall',
                                     'pkGetAll_sysServicesGroups' => 'restApiDefaultCall',
@@ -1058,10 +509,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillServicesGroupsDdList_sysServicesGroups' => 'restApiDefaultCall', 
                                     'pkFillServicesGroupsList_sysServicesGroups' => 'restApiDefaultCall', 
                                     'pkUpdateMakeActiveOrPassive_sysServicesGroups' => 'restApiDefaultCall',
-                                    
-     
-         //**---- SysServicesGroups -------------------   
-        
+         //**---- SysServicesGroups -------------------           
          //** SysAclRestservices ----------------------
                                     'pkDelete_sysAclRestservices' => 'restApiDefaultCall',
                                     'pkGetAll_sysAclRestservices' => 'restApiDefaultCall',
@@ -1072,9 +520,6 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkDeleteAct_sysAclRestservices' => 'restApiDefaultCall',
                                     'pkUpdateMakeActiveOrPassive_sysAclRestservices' => 'restApiDefaultCall',
                                     'pkFillRestServicesList_sysAclRestservices' => 'restApiDefaultCall', 
-                                    
-                                    
-     
          //**---- SysAclRestservices -------------------  
          //** SysAssignDefinition ----------------------
                                     'pkDelete_sysAssignDefinition' => 'restApiDefaultCall',
@@ -1087,11 +532,8 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkUpdateMakeActiveOrPassive_sysAssignDefinition' => 'restApiDefaultCall',
                                     'pkFillAssignDefinitionList_sysAssignDefinition' => 'restApiDefaultCall', 
                                     'pkFillAssignDefinitionDdList_sysAssignDefinition' => 'restApiDefaultCall', 
-                                     
-        
-     
          //**---- SysAssignDefinition -------------------  
-           //** SysAssignDefinitionRoles ----------------------
+         //** SysAssignDefinitionRoles ----------------------
                                     'pkDelete_sysAssignDefinitionRoles' => 'restApiDefaultCall',
                                     'pkGetAll_sysAssignDefinitionRoles' => 'restApiDefaultCall',
                                     'pkInsert_sysAssignDefinitionRoles' => 'restApiDefaultCall',
@@ -1104,23 +546,15 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillConsultantRolesTree_sysAssignDefinitionRoles' => 'restApiDefaultCall', 
                                     'pkFillAssignDefinitionOfRoles_sysAssignDefinitionRoles' => 'restApiDefaultCall', 
                                     'pkFillNotInAssignDefinitionOfRoles_sysAssignDefinitionRoles' => 'restApiDefaultCall', 
-         
-        
-        
          //**---- SysAssignDefinitionRoles -------------------  
-          
-     
          //**---- SysAssignDefinition -------------------  
         //** PgClass ----------------------
                                     'pkDelete_pgClass' => 'restApiDefaultCall',
                                     'pkGetAll_pgClass' => 'restApiDefaultCall',
                                     'pkInsert_pgClass' => 'restApiDefaultCall',
                                     'pkUpdate_pgClass' => 'restApiDefaultCall',
-                                    'pkFillGrid_pgClass' => 'restApiDefaultCall', 
-                
+                                    'pkFillGrid_pgClass' => 'restApiDefaultCall',                 
                                     'pkFillInfoTablesDdList_pgClass' => 'restApiDefaultCall', 
-         
-         
          //**---- PgClass -------------------  
         //** SysOperationTypesRrp ----------------------
                                     'pkDelete_sysOperationTypesRrp' => 'restApiDefaultCall',
@@ -1132,8 +566,6 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillConsultantOperationsRrpList_sysOperationTypesRrp' => 'restApiDefaultCall', 
                                     'pkFillOperationTypesRrpList_sysOperationTypesRrp' => 'restApiDefaultCall', 
                                     'pkUpdateMakeActiveOrPassive_sysOperationTypesRrp' => 'restApiDefaultCall',
-         
-         
          //**---- SysOperationTypesRrp -------------------  
          //** SysAclActionRrp ----------------------
                                     'pkDelete_sysAclActionRrp' => 'restApiDefaultCall',
@@ -1149,25 +581,8 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillNotInActionPrivilegesOfRoles_sysAclActionRrp' => 'restApiDefaultCall',
                                     'pkFillActionPrivilegesOfRolesDdList_sysAclActionRrp' => 'restApiDefaultCall', 
                                     'pkFillActionPrivilegesOfRolesList_sysAclActionRrp' => 'restApiDefaultCall',        
-                                    'pkTransferRolesActionPrivilege_sysAclActionRrp' => 'restApiDefaultCall',        
-        
-                        
-         //**---- SysAclActionRrp ------------------- 
-         
-         //** sysManufacturer ----------------------
-                                    'pkDelete_sysManufacturer' => 'restApiDefaultCall',
-                                    'pkGetAll_sysManufacturerp' => 'restApiDefaultCall',
-                                    'pkInsert_sysManufacturer' => 'restApiDefaultCall',
-                                    'pkUpdate_sysManufacturer' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysManufacturer' => 'restApiDefaultCall', 
-                
-                                    'pkFillManufacturerList_sysManufacturer' => 'restApiDefaultCall',                                     
-                                    'pkUpdateMakeActiveOrPassive_sysManufacturer' => 'restApiDefaultCall',
-                                    'pkFillManufacturerListGrid_sysManufacturer' => 'restApiDefaultCall',
-         
-         
-         //**---- sysManufacturer -------------------  
-        
+                                    'pkTransferRolesActionPrivilege_sysAclActionRrp' => 'restApiDefaultCall',                         
+         //**---- SysAclActionRrp -------------------          
         //** SysAclActionRrpRestservices ----------------------
                                     'pkDelete_sysAclActionRrpRestservices' => 'restApiDefaultCall',
                                     'pkGetAll_sysAclActionRrpRestservices' => 'restApiDefaultCall',
@@ -1179,30 +594,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillNotInActionRestServicesOfPrivileges_sysAclActionRrpRestservices' => 'restApiDefaultCall',
                                     'pkFillNotInActionRestServicesOfPrivilegesTree_sysAclActionRrpRestservices' => 'restApiDefaultCall',
                                     'pkFillActionRestServicesOfPrivilegesTree_sysAclActionRrpRestservices' => 'restApiDefaultCall',
-                      
-     
-         //**---- SysAclActionRrpRestservices ------------------- 
-        //** InfoFirmConsultants ----------------------
-                                    'pkDelete_infoFirmConsultants' => 'restApiDefaultCall',
-                                    'pkGetAll_infoFirmConsultants' => 'restApiDefaultCall',
-                                    'pkInsert_infoFirmConsultants' => 'restApiDefaultCall',
-                                    'pkUpdate_infoFirmConsultants' => 'restApiDefaultCall',
-                                    'pkFillGrid_infoFirmConsultants' => 'restApiDefaultCall',
-                                    'pkDeletedAct_infoFirmConsultants' => 'restApiDefaultCall',  
-                                    'pkUpdateMakeActiveOrPassive_infoFirmConsultants' => 'restApiDefaultCall',
-     
-         //**---- InfoFirmConsultants ------------------- 
-         //** SysOsbPerson ----------------------
-                                    'pkDelete_sysOsbPerson' => 'restApiDefaultCall',
-                                    'pkGetAll_sysOsbPerson' => 'restApiDefaultCall',
-                                    'pkInsert_sysOsbPerson' => 'restApiDefaultCall',
-                                    'pkUpdate_sysOsbPerson' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysOsbPerson' => 'restApiDefaultCall',
-        
-                                    'pkFillUrgePersonListGrid_sysOsbPerson' => 'restApiDefaultCall',  
-                                    'pkUpdateMakeActiveOrPassive_sysOsbPerson' => 'restApiDefaultCall',
-     
-         //**---- SysOsbPerson ------------------- 
+         //**---- SysAclActionRrpRestservices -------------------                  
          //** InfoUsersSendingMail ----------------------
                                     'pkDelete_infoUsersSendingMail' => 'restApiDefaultCall',
                                     'pkGetAll_infoUsersSendingMail' => 'restApiDefaultCall',
@@ -1219,22 +611,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillGrid_actProcessConfirm' => 'restApiDefaultCall',
                                     'pkGetConsultantJobs_actProcessConfirm' => 'restApiDefaultCall',
      
-         //**---- ActProcessConfirm ------------------- 
-          //** SysMachineToolModelMaterials ----------------------
-                                    'pkDelete_sysMachineToolModelMaterials' => 'restApiDefaultCall',
-                                    'pkGetAll_sysMachineToolModelMaterials' => 'restApiDefaultCall',
-                                    'pkInsert_sysMachineToolModelMaterials' => 'restApiDefaultCall',
-                                    'pkUpdate_sysMachineToolModelMaterials' => 'restApiDefaultCall',
-                                    'pkFillGrid_sysMachineToolModelMaterials' => 'restApiDefaultCall',
-                                    'pkFillMachineToolModelListGrid_sysMachineToolModelMaterials' => 'restApiDefaultCall',
-                                    'pkUpdateMakeActiveOrPassive_sysMachineToolModelMaterials' => 'restApiDefaultCall',
-         //**---- SysMachineToolModelMaterials ------------------- 
-        
-        
-        
-        
-        
-        
+         //**---- ActProcessConfirm -------------------          
     );
 
     /**
@@ -1672,11 +1049,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
             $this->setRestApiEndPoint('leftnavigation.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        } else if (substr($endPointFunction, -11) == '_syssectors') {
-            $this->setRestApiEndPoint('syssectors.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        } else if (substr($endPointFunction, -10) == '_infoUsers') {
+        }  else if (substr($endPointFunction, -10) == '_infoUsers') {
             $this->setRestApiEndPoint('infousers.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
@@ -1684,14 +1057,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
             $this->setRestApiEndPoint('syscountrys.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }
-      /*  else if (substr($endPointFunction, -21) == '_syscountryssilinecek') {
-            $this->setRestApiEndPoint('syscountryssilinecek.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }        
-       */
-          else if (substr($endPointFunction, -8) == '_syscity') {
+        } else if (substr($endPointFunction, -8) == '_syscity') {
             $this->setRestApiEndPoint('syscity.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
@@ -1707,13 +1073,8 @@ class SlimHmacProxy extends \Proxy\Proxy {
             $this->setRestApiEndPoint('sysvillage.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }
-        else if (substr($endPointFunction, -14) == '_blLoginLogout') {
+        }else if (substr($endPointFunction, -14) == '_blLoginLogout') {
             $this->setRestApiEndPoint('blLoginLogout.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }else if (substr($endPointFunction, -16) == '_infoFirmProfile') {
-            $this->setRestApiEndPoint('infoFirmProfile.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }else if (substr($endPointFunction, -12) == '_sysAclRoles') {
@@ -1748,10 +1109,6 @@ class SlimHmacProxy extends \Proxy\Proxy {
             $this->setRestApiEndPoint('blActivationReport.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }else if (substr($endPointFunction, -18) == '_sysOsbConsultants') {
-            $this->setRestApiEndPoint('sysosbconsultants.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }else if (substr($endPointFunction, -18) == '_sysOperationTypes') {
             $this->setRestApiEndPoint('sysOperationTypes.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
@@ -1764,32 +1121,8 @@ class SlimHmacProxy extends \Proxy\Proxy {
             $this->setRestApiEndPoint('infoerror.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        } else if (substr($endPointFunction, -21) == '_sysMachineToolGroups') {
-            $this->setRestApiEndPoint('sysmachinetoolgroups.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        } else if (substr($endPointFunction, -16) == '_sysMachineTools') {
-            $this->setRestApiEndPoint('sysmachinetools.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }else if (substr($endPointFunction, -33) == '_sysMachineToolPropertyDefinition') {
-            $this->setRestApiEndPoint('sysmachinetoolpropertydefinition.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }else if (substr($endPointFunction, -25) == '_sysMachineToolProperties') {
-            $this->setRestApiEndPoint('sysmachinetoolproperties.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }else if (substr($endPointFunction, -9) == '_sysUnits') {           
             $this->setRestApiEndPoint('sysunits.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }else if (substr($endPointFunction, -20) == '_infoFirmMachineTool') {
-            $this->setRestApiEndPoint('infofirmmachinetool.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        } else if (substr($endPointFunction, -13) == '_sysNaceCodes') {
-            $this->setRestApiEndPoint('sysnacecodes.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         } else if (substr($endPointFunction, -11) == '_hstryLogin') {
@@ -1816,10 +1149,6 @@ class SlimHmacProxy extends \Proxy\Proxy {
             $this->setRestApiEndPoint('logadmin.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }  else if (substr($endPointFunction, -15) == '_sysUnspscCodes') {
-            $this->setRestApiEndPoint('sysunspsccodes.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }  else if (substr($endPointFunction, -18) == '_sysCertifications') {
             $this->setRestApiEndPoint('syscertifications.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
@@ -1828,76 +1157,20 @@ class SlimHmacProxy extends \Proxy\Proxy {
             $this->setRestApiEndPoint('sysunitsystems.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        } else if (substr($endPointFunction, -19) == '_infoFirmReferences') {
-            $this->setRestApiEndPoint('infofirmreferences.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        } else if (substr($endPointFunction, -19) == '_sysProductionTypes') {
-            $this->setRestApiEndPoint('sysproductiontypes.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        } else if (substr($endPointFunction, -14) == '_infoFirmUsers') {
-            $this->setRestApiEndPoint('infofirmusers.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }  else if (substr($endPointFunction, -34) == '_sysMachineToolDefinitionAttribute') {
-            $this->setRestApiEndPoint('sysmachinetooldefinitionattribute.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }  else if (substr($endPointFunction, -21) == '_infoUsersSocialmedia') {
             $this->setRestApiEndPoint('infouserssocialmedia.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }  else if (substr($endPointFunction, -15) == '_infoFirmVerbal') {
-            $this->setRestApiEndPoint('infofirmverbal.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }  else if (substr($endPointFunction, -27) == '_infoFirmUserDescForCompany') {
-            $this->setRestApiEndPoint('infofirmuserdescforcompany.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }  else if (substr($endPointFunction, -15) == '_sysSocialMedia') {
             $this->setRestApiEndPoint('syssocialmedia.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }  else if (substr($endPointFunction, -20) == '_infoFirmSocialmedia') {
-            $this->setRestApiEndPoint('infofirmsocialmedia.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }   else if (substr($endPointFunction, -16) == '_infoFirmAddress') {
-            $this->setRestApiEndPoint('infofirmaddress.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }   else if (substr($endPointFunction, -16) == '_sysManufacturer') {
             $this->setRestApiEndPoint('sysmanufacturer.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }   else if (substr($endPointFunction, -17) == '_infoFirmProducts') {
-            $this->setRestApiEndPoint('infofirmproducts.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }   else if (substr($endPointFunction, -14) == '_sysMailServer') {
             $this->setRestApiEndPoint('sysmailserver.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }   else if (substr($endPointFunction, -25) == '_infoFirmProductsServices') {
-            $this->setRestApiEndPoint('infofirmproductsservices.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }   else if (substr($endPointFunction, -20) == '_infoFirmCertificate') {
-            $this->setRestApiEndPoint('infofirmcertificate.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }   else if (substr($endPointFunction, -16) == '_infoFirmQuality') {
-            $this->setRestApiEndPoint('infofirmquality.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }   else if (substr($endPointFunction, -17) == '_infoFirmSectoral') {
-            $this->setRestApiEndPoint('infofirmsectoral.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }   else if (substr($endPointFunction, -21) == '_infoFirmLanguageInfo') {
-            $this->setRestApiEndPoint('infofirmlanguageinfo.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }   else if (substr($endPointFunction, -21) == '_sysCustomerCriterion') {
@@ -1938,14 +1211,6 @@ class SlimHmacProxy extends \Proxy\Proxy {
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }   else if (substr($endPointFunction, -16) == '_sysUniversities') {
             $this->setRestApiEndPoint('sysuniversities.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }   else if (substr($endPointFunction, -25) == '_infoFirmWorkingPersonnel') {
-            $this->setRestApiEndPoint('infofirmworkingpersonnel.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }   else if (substr($endPointFunction, -34) == '_infoFirmWorkingPersonnelEducation') {
-            $this->setRestApiEndPoint('infofirmworkingpersonneleducation.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }   else if (substr($endPointFunction, -13) == '_sysMenuTypes') {
@@ -1992,24 +1257,12 @@ class SlimHmacProxy extends \Proxy\Proxy {
             $this->setRestApiEndPoint('sysoperationtypesrrp.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }   else if (substr($endPointFunction, -7) == '_sysOsb') {          
-            $this->setRestApiEndPoint('sysosb.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }   else if (substr($endPointFunction, -16) == '_sysAclActionRrp') {          
             $this->setRestApiEndPoint('sysaclactionrrp.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }   else if (substr($endPointFunction, -28) == '_sysAclActionRrpRestservices') {          
             $this->setRestApiEndPoint('sysaclactionrrprestservices.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }   else if (substr($endPointFunction, -20) == '_infoFirmConsultants') {          
-            $this->setRestApiEndPoint('infofirmconsultants.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }   else if (substr($endPointFunction, -13) == '_sysOsbPerson') {          
-            $this->setRestApiEndPoint('sysosbperson.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }   else if (substr($endPointFunction, -21) == '_infoUsersSendingMail') {          
@@ -2020,13 +1273,7 @@ class SlimHmacProxy extends \Proxy\Proxy {
             $this->setRestApiEndPoint('actprocessconfirm.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }   else if (substr($endPointFunction, -29) == '_sysMachineToolModelMaterials') {          
-            $this->setRestApiEndPoint('sysmachinetoolmodelmaterials.php/');
-            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
-            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
-        }   
-        
-         
+        }
          
     }
 

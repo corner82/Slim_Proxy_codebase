@@ -62,4 +62,5 @@ return array(
     'Dal\\' => array($vendorDir . '/dal'),
     'Hmac\\' => array($vendorDir . '/hmac'),
     'Utill\\Forwarder\\' => array($vendorDir . '/utill/forwarder'),
+    'Utill\\Env\\' => array($vendorDir . '/utill/env'),
 );

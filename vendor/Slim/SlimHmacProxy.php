@@ -45,6 +45,16 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkInsertConsultant_infoUsers' => 'restApiDefaultCall',
                                     'pkInsertUrgePerson_infoUsers' => 'restApiDefaultCall',
                                     'setPersonPassword_infoUsers' => 'restApiDefaultCall',
+        
+            'pkUpdateConsUserConfirmAct_infoUsers' => 'restApiDefaultCall',
+            'pkFillUsersProfileInformationGuest_infoUsers' => 'restApiDefaultCall',
+            'pkFillUsersProfileInformation_infoUsers' => 'restApiDefaultCall',
+            'pkGetUserShortInformation_infoUsers' => 'restApiDefaultCall',
+        
+        
+        
+        
+        
          //**---- infoUsers -------------------                                        
          //** syscountrys ----------------------
                                     'pkDelete_syscountrys' => 'restApiDefaultCall',
@@ -264,11 +274,18 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkGetAll_blActivationReport' => 'restApiDefaultCall',
                                     'pkInsert_blActivationReport' => 'restApiDefaultCall',
                                     'pkUpdate_blActivationReport' => 'restApiDefaultCall',        
+                                    
                                     'pkGetConsultantOperation_blActivationReport' => 'restApiDefaultCall',
                                     'getAllFirmCount_blActivationReport' => 'restApiDefaultCall',
                                     'pkGetConsultantFirmCount_blActivationReport' => 'restApiDefaultCall',
                                     'pkGetConsultantUpDashBoardCount_blActivationReport' => 'restApiDefaultCall',
-                                    'pkGetConsWaitingForConfirm_blActivationReport' => 'restApiDefaultCall',
+                                    'pkGetConsWaitingForConfirm_blActivationReport' => 'restApiDefaultCall',        
+                                    'pkGetUrgeUpDashBoardCount_blActivationReport' => 'restApiDefaultCall',                                     
+                                    'pkFillUrgeOrganizations_blActivationReport' => 'restApiDefaultCall', 
+                                    'pkGetUrgeUpFirstDashBoardCount_blActivationReport' => 'restApiDefaultCall',         
+        
+        
+        
          //**---- BlActivationReport -------------------  
          //** sysOperationTypes ----------------------
                                     'pkDelete_sysOperationTypes' => 'restApiDefaultCall',
@@ -525,7 +542,17 @@ class SlimHmacProxy extends \Proxy\Proxy {
                                     'pkFillGrid_actProcessConfirm' => 'restApiDefaultCall',
                                     'pkGetConsultantJobs_actProcessConfirm' => 'restApiDefaultCall',
      
-         //**---- ActProcessConfirm -------------------          
+         //**---- ActProcessConfirm -------------------    
+         //** syssectors ----------------------
+                                    'pkDelete_sysSectors' => 'restApiDefaultCall',                                    
+                                    'pkInsert_sysSectors' => 'restApiDefaultCall',
+                                    'pkUpdate_sysSectors' => 'restApiDefaultCall',                                    
+                                    'fillComboBox_sysSectors' => 'restApiDefaultCall',                                    
+                                    'pkGetSectors_sysSectors' => 'restApiDefaultCall',
+                                    'getSectors_sysSectors' => 'restApiDefaultCall',
+        
+           
+         //**---- syssectors -------------------
     );
 
     /**
@@ -1161,6 +1188,10 @@ class SlimHmacProxy extends \Proxy\Proxy {
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }   else if (substr($endPointFunction, -18) == '_actProcessConfirm') {          
             $this->setRestApiEndPoint('actprocessconfirm.php/');
+            //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
+            $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
+        }   else if (substr($endPointFunction, -11) == '_sysSectors') {
+            $this->setRestApiEndPoint('syssectors.php/');
             //    print_r($this->restApiBaseUrl.$this->restApiEndPoint.$this->restApiEndPointFunction);
             $this->setRestApiFullPathUrl($this->restApiBaseUrl . $this->restApiEndPoint . $this->restApiEndPointFunction);
         }
